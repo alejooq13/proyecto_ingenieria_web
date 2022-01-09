@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.fondoRojo{
-    background-color: red;
+.parrafo{
+    font-size: smaller;
+    border: black;
 }
