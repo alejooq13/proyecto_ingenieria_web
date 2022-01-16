@@ -1,11 +1,11 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
+import Footer from '../components/footer';
+import NavBar from '../components/navBar';
 
 const Contactame = ()=> {
     return(
-        <div className='flex flex-col items-center'>
-            <span>Página de contacto</span>
-            <Link to="/">Ir a página de Home</Link>
+        <div className='h-screen flex'>
+            <NavBar/>
         </div>
     )
 }

@@ -1,18 +1,17 @@
 import React from 'react';
 import Horizontal from '../components/horizontalBar';
-import NavBar from '../components/navBar';
 import Footer from '../components/footer';
 
-const Index = ()=>{
+const Certificate = ()=>{
     return(
         <div className='h-screen flex flex-col justify-between'>
             <Horizontal/>
             <span className='text-center '>
-                Home
+                Cursos y Certificados
             </span>
             <Footer className="pb-10"/>
         </div>
     )
 }
 
-export default Index 
+export default Certificate
