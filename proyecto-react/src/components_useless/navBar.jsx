@@ -2,7 +2,7 @@ import React from 'react';
 import SidebarP from './sidebar';
 import SidebarResponsive from './sideBarResponsive';
 
-function NavBar(){
+const NavBar = () => {
     return(
         <div>
             <SidebarP/>
